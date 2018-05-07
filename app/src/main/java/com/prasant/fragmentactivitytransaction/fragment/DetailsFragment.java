@@ -125,6 +125,5 @@ public class DetailsFragment extends Fragment implements DeleteUser {
     {
         myDataBase.deleteUSer(std_id);
         mAdapter.notifyDataSetChanged();
-
     }
 }
